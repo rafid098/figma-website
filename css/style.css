@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start */
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menubar{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+.menubar ul{
+    list-style-type: none;
+}
+.menubar ul li{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.menubar ul li a:hover{
+    color: #6A4DF4;
+    font-size: 20px;
+}
+.button{
+    text-align: right;
+    margin-top: 13px;
+}
+.button a{
+    text-decoration: none;
+    background: #6A4DF4;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+/* header part end */
+/*banner part end */
+#banner{
+    height: 700px;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.608);
+}
+.bannerText h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 90px;
+    padding-top: 200px;
+}
+.bannerText p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+    padding: 20px 256px;
+}
+.bannerText a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background: #6A4DF4;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/*banner part end */
+/*details part start */
+#detailspart{
+    padding: 20px 25px;
+    background: #E0FFF9;
+    margin-top: 80px;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+.detailsText h5{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #6A4DF4;
+}
+.detailsText h2{
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 400;
+    padding-right: 146px;
+    color: #151515;
+}
+.detailsrate h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.detailsrate p{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/*details part end */
+/*services title part start */
+#service{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+.servicestitle h2{
+    font-style: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #151515;
+}
+.servicesperagraph p{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0 324px;
+}
+/*services title part end */
+/*services  part start */
+#services{
+    margin-top: 60px;
+}
+.servis{
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.servis img{
+    width: 98px;
+    height: 80px;
+}
+.servis h3{
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #151515;
+}
+.servis p{
+    color: #737373;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.servis:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+/*services  part end */
+/*work title part start */
+#recentworktpart{
+    background: #F3F3F3;
+}
+.worktitlepart{
+   padding: 50px 0;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+.worktitle h2{
+    font-style: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #151515;
+}
+.workperagraph p{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0 324px;
+}
+.work{
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.work img{
+    width: 100%;
+    height: 100%;
+}
+.work h3{
+    padding: 10px 0;
+    font-style: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #151515;
+}
+.work h4{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+.work:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+/*work  title part end */
+/*agenc  title part start */
+#agencpart{
+    padding: 50px 0;
+     text-align: center;
+     font-family: "Noto Sans", sans-serif;
+ }
+ .agencparttile{
+    text-align: center;
+ }
+ .agencparttile h2{
+     font-size: 45px;
+     font-weight: 700;
+     line-height: 54px;
+     color: #151515;
+     padding: 0 337px;
+ }
+ .agencpartperagarph{
+    text-align: center;
+ }
+ .agencpartperagarph p{
+     color: #737373;
+     font-size: 15px;
+     line-height: 24px;
+     font-weight: 400;
+     padding: 0 214px;
+ }
+/*agenc  title part end */
+/*chose agenc part end */
+.choseagencpart{
+    font-family: "Noto Sans", sans-serif;
+}
+.innovationidea{
+    margin-top: 100px;
+    text-align: left;
+}
+.innovationidea h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #151515;
+    padding: 10px 0;
+}
+.innovationidea p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+.coseagencpartimg{
+    margin-top: 100px;
+
+}
+/*chose agenc part end */
+/*client review part end */
+#clientreviewpart{
+    padding: 50px 0;
+     text-align: center;
+     font-family: "Noto Sans", sans-serif;
+ }
+ .clientreviewtitle{
+    text-align: center;
+ }
+ .clientreviewtitle h2{
+     font-size: 45px;
+     font-weight: 700;
+     line-height: 54px;
+     color: #151515;
+ }
+ .clientreviewperagraph{
+    text-align: center;
+ }
+ .clientreviewperagraph p{
+     color: #737373;
+     font-size: 15px;
+     line-height: 24px;
+     font-weight: 400;
+     padding: 0 203px;
+ }
+ .clientreview{
+    margin-top: 100px; 
+ }
+ .clientreviewicon{
+    margin-top: 100px;
+ }
+.clientreviewicon i{
+    padding: 5px 7px;
+    background: #4756DF;
+   border-radius: 50%;
+   color: #fff;
+   
+}
+.clientreviewdetails{
+    text-align: left;
+}
+.clientreviewdetails img{
+    padding-bottom: 10px;
+}
+.clientreviewdetails p{
+    color: #737373;
+     font-size: 15px;
+     line-height: 24px;
+     font-weight: 400;
+     padding-right: 62px;
+}
+.clientreviewdetails i{
+    color: orange;
+}
+.clientdetailsimg{
+    position: relative;
+    margin-top: 10px;
+}
+.clientdetailsimg h3{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 20px;
+     line-height: 24px;
+     font-weight: 600;
+}
+.clientdetailsimg p{
+    position: absolute;
+    top: 26px;
+    left: 50px;
+    font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+}
+/*client review part end */
+/*ccontact part start */
+#contactpart{
+    padding: 60px 0;
+    background: #DCDCDC;
+    font-family: "Noto Sans", sans-serif;
+}
+.contacttitle{
+    padding-top: 150px;
+}
+.contacttitle h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #151515;
+    padding-right: 152px;
+}
+.contacttitle p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #737373;
+    padding-right: 113px;
+}
+.contactinput{
+    width: 536px;
+    height: 622px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+.contactinput h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #151515;
+}
+.contactinput p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #151515;
+    text-align: left;
+}
+.contactinput input{
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #D0D0D0;
+    padding: 0 10px;
+
+}
+.href{
+    margin-top: 40px;
+    padding: 10px 0;
+    background: #6A4DF4;
+    border-radius: 10px;
+}
+.href a{
+    text-decoration: none;
+    color: #fff;
+}
+/*ccontact part end */
+/*explain part end */
+#explainpart{
+    padding: 20px 0;
+}
+.explainpartone{
+    padding-top: 100px;
+}
+.list{
+    padding-top: 100px;
+}
+.list h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #151515;
+}
+.list ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.list ul li{
+    padding: 5px 0;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+.line{
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #E8E8E8;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #737373;
+}
+
+/*explain part end */

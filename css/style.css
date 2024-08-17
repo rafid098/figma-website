@@ -165,8 +165,17 @@
     line-height: 24px;
     font-weight: 400;
 }
-.servis:hover{
-    border: 2px solid blue;
+.servis:hover {
+    box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.bordere {
+    box-shadow: -2px 0px 5px 6px rgba(0,0,0,0.39);
+-webkit-box-shadow: -2px 0px 5px 6px rgba(0,0,0,0.39);
+-moz-box-shadow: -2px 0px 5px 6px rgba(0,0,0,0.39);
     border-radius: 20px;
 }
 /*services  part end */
@@ -216,8 +225,10 @@
     padding: 0 30px;
 }
 .work:hover{
-    border: 2px solid blue;
-    border-radius: 20px;
+   box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 5px 24px 14px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 /*work  title part end */
 /*agenc  title part start */
@@ -313,6 +324,11 @@
 }
 .clientreviewdetails{
     text-align: left;
+}
+.background{
+    background: #F4EFEF;
+    border-radius: 20px;
+    padding: 20px;
 }
 .clientreviewdetails img{
     padding-bottom: 10px;
